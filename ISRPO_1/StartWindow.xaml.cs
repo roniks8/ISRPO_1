@@ -23,5 +23,10 @@ namespace ISRPO_1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            but.Background = Brushes.Green;
+        }
     }
 }
